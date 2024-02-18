@@ -1,0 +1,269 @@
+:root{
+    --was: linear-gr;
+}
+.bg2{
+    background-color: rgb(230, 227, 223);
+}
+.bg1{
+    background-image:url(../Images/ALLAM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.head{
+    width: 100% !important;
+    background-color:rgba(63, 9, 9, 0.6) !important;
+    position: fixed !important;
+    z-index: 1000 !important;
+}
+.h-img{
+    padding-right: 10px !important;
+    border-right:1px solid rgb(240, 234, 234) !important;
+}
+.carousel-caption{
+    background-color: rgba(6, 90,245, 0.3) !important;
+
+}
+.te-title{
+
+    
+    background-color: rgb(25, 25, 245);
+    transform: translateY(-4%);
+}
+.te-title1{
+
+    background-color: rgb(73, 25, 245);
+    transform: translateY(-4%);
+    
+}
+.text-copy{
+    background-color: rgba(8, 77, 109, 0.699);
+}
+.text-copy1{
+    background-color: rgb(13, 169, 231);
+}
+.Tourist{
+    margin-top: 100px;
+}
+.Tourist-areas{
+    background-color: rgb(25, 25, 87);
+}
+.imgcard{
+    height: 500px !important;
+
+}
+.card1{
+
+    border: 1px solid blue !important;
+}
+.nnav{
+    background-color: rgb(247, 239, 229);
+}
+.fixedimg{
+    background-image:url(../Images/F.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300px;
+}
+.cardbor{
+    position: relative;
+    transition: 4s;
+    box-shadow: 0 0 5px rgb(62, 124, 139);
+
+}
+.cardbor::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:0;
+    top:0;
+    left:0;
+    background-color: rgba(16, 114, 206, 0.4);
+
+}
+.cardbor::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom:0;
+    right:0;
+    background-color: rgba(16, 114, 206, 0.4);
+
+}
+.cardbor:hover::before{
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    transition: 2s;
+}
+.cardbor:hover::after{
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    transition: 2s;
+    
+}
+.te-title3{
+    background-color: rgb(58, 28, 87);
+}
+#cardmy{
+    border-radius: 25px !important; 
+    position: relative;
+    width: 400px !important;
+    height: 470px !important;
+   padding:  0 !important;
+
+   overflow: hidden;
+   background-color: rgb(14, 17, 46);
+}
+#containermyson{
+    border-radius: inherit;
+    position: absolute;
+    width: 100% !important; 
+    height: 100% !important;
+    background-color:rgba(15, 19, 49, 0.8);
+    z-index: 5;
+    color: white;
+    
+}
+
+.cardimag{
+    width: 100%  ; 
+    height: 100%;
+    position: absolute;
+}
+.containermyson1{
+    margin-top:10px;
+    margin-left: 25px;
+}
+.cardimag-bot{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#cardmy:hover{
+    transform: scale(0.9,0.9);
+    translate: 1s;
+    background-color:rgba(40, 121, 212, 0.5);
+}
+#cardmy:hover #containermyson{
+   
+    background-color:rgba(40, 121, 212, 0.5);
+}
+.ICONS{
+    right: 10px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+}
+.ICONS i{
+    text-align: center;
+    font-size: 60px;
+    /* color: rgba(236, 227, 227, 0); */
+    color: blue;
+    margin: 25px 10px;
+    z-index: 10;
+    /* background-color: rgb(4, 19, 99); */
+
+}
+.card-icon{
+    font-size: 28px;
+    margin: 0px 10px;
+}
+.ligne-card{
+    height: 4px;
+    width: 200px;
+    border: 2px solid rgb(19, 87, 61);
+    margin-bottom: 10px;
+}
+.cati{
+    margin-top: 27px;
+    font-size: 40px;
+}
+.carbtun{
+
+    margin-top: 100px;
+}
+.carbtun button{
+    margin-left: 10px;
+width: 150px;
+height: 30px;
+background-color: #304864;
+}
+.cardbbton:hover{
+    background-color: blue;
+}
+.card-hurz{
+    background-color: rgba(47, 168, 248, 0.4);
+}
+.join{
+    background-color: rgb(185, 229, 243);
+    margin: 20px 0;
+    max-width: 300px;
+    height: 200px;
+    box-shadow: 0 0 10px rgb(87, 87, 236);
+}
+.img-join {
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    width: 110px;
+    height:110px;
+}
+.img-join-g{
+    margin-top: 5px;
+    width:95px;
+    height:95px;
+    box-shadow: 4px 4px 2px ;
+}
+.nnav{
+    margin-top: 200PX !important;
+}
+.cardbor{
+    color:blue ;
+}
+.CARDA{
+    background-color:rgb(48, 84, 243);
+}
+.CARDP{
+
+    text-transform: capitalize;
+    color: rgb(77, 128, 10);
+    /* margin-top: 5px;
+    background:linear-gradient(top ,red, green);
+    margin-bottom: 20px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+ }
+.footend{
+    text-transform: capitalize;
+    color: blue;
+}
+.cardnewsh{
+    font-size: 40px;
+    color: blue;
+}
+.cardnews{
+color:rgb(53, 17, 17);
+}
+.transp{
+    color: #f0eded;
+    font-size: 20px;
+}
+.transp strong{
+    color: #0df0f0;
+    font-size: 20px;
+}
+.copytex{
+    text-align: right;
+    padding-right: 10px;
+}
